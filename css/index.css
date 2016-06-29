@@ -1,0 +1,68 @@
+body {
+	background-image: url("../img/back1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	color: white;
+}
+
+.main-logo {
+	width: 80px;
+	margin-top: 25px;
+}
+
+a {
+	color: white;
+	text-decoration: none !important;
+}
+
+a:hover {
+	color: white;
+}
+
+.navigation {
+	text-align: center;
+}
+
+.central-text {
+	margin-top: 90px;
+	margin-left: 100px;
+}
+
+hr {
+	width: 75%;
+	left: -140px;
+	position: relative;
+}
+
+.text {
+	font-size: 18px;
+}
+
+button {
+	margin-top: 90px;
+	padding: 10px 30px 10px 30px;
+	background: transparent;
+	border-color: white;
+	border-width: 1px;
+	color: white;
+}
+
+.logo2 {
+	width: 70px;
+}
+
+@media only screen and (max-width: 750px) {
+	.navigation {
+		margin-top: 20px;
+	}
+
+	.central-text {
+		margin-left: 0px;
+	}
+
+	hr {
+		left: 0px;
+	}
+}
