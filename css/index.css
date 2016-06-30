@@ -18,11 +18,12 @@ a {
 }
 
 a:hover {
-	color: white;
+	color: blue;
 }
 
 .navigation {
 	text-align: center;
+	font-size: 1.4em;
 }
 
 .central-text {
