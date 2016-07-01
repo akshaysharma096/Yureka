@@ -1,0 +1,160 @@
+body {
+	background-image: url("../img/back1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	color: white;
+}
+
+.main-logo {
+	width: 80px;
+	margin-top: 25px;
+}
+
+a {
+	color: white;
+	text-decoration: none !important;
+}
+
+a:hover {
+	color: blue;
+}
+
+.navigation {
+	text-align: center;
+	font-size: 1.4em;
+}
+
+.central-text {
+	margin-top: 90px;
+	margin-left: 100px;
+}
+
+hr {
+	width: 75%;
+	left: -140px;
+	position: relative;
+}
+
+.text {
+	font-size: 18px;
+}
+
+button {
+	margin-top: 90px;
+	padding: 10px 30px 10px 30px;
+	background: transparent;
+	border-color: white;
+	border-width: 1px;
+	color: white;
+}
+
+.logo2 {
+	width: 70px;
+}
+
+@media only screen and (max-width: 750px) {
+	.navigation {
+		margin-top: 20px;
+	}
+
+	.central-text {
+		margin-left: 0px;
+	}
+
+	hr {
+		left: 0px;
+	}
+}
+
+----------------------------------------------------------------------------------------------------------------------------------------
+/*ACCORDIAN STYLING*/
+
+*{
+  margin:0;
+  padding:0;
+}
+
+/*
+Width of image : 500;
+Width of hovered image: 500
+Width of unhovered image: 25x;
+Width of container : 500 + 50*4 = 700px;
+Default 700/5 : 140px;
+*/
+
+.accordian{
+  width: 1305px;
+  height: 600px;
+  overflow:hidden;
+  
+  margin: 100px auto;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0px 8px 6px -6px black;
+}
+.accordian ul{
+  
+}
+.accordian li{
+  position: relative;
+  display:block;
+  width:260px;
+  float: left;
+  
+  border-left: 1px solid #888;
+  -webkit-box-shadow: 0 0 25px 10px rgba(0,0,0,0.6);
+  -moz-box-shadow: 0 0 25px 10px rgba(0,0,0,0.6);
+  
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+
+
+.accordian ul:hover li{
+  width: 75px;
+}
+
+.accordian ul li:hover{
+  width:1000px;
+}
+
+.accordian li img{
+  display: block;
+}
+
+.image_title{
+  background: rgba(0,0,0,0.6);
+  position:absolute;
+  left:0;
+  bottom:0;
+  width:1000px;
+}
+
+.image_title a{
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding-top:20px;
+  padding-left: 15px;
+  font-size:20px;
+  font-size: 1.6em;
+  font-style: bold;
+}
+
+.image_title p{
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding-top:10px;
+  padding-bottom: 10px;
+  padding-left: 250px;
+  font-size:16px;
+  font-size: 1.3em;
+}
+
+
+
+/*ACCORDIAN STYLE END*/
