@@ -1,0 +1,71 @@
+
+
+.gallery-body{
+            background-image: url("../img/back.jpg");
+            background-size: cover;
+	        font-family: 'Roboto Condensed', sans-serif;
+	        font-weight: 400;
+	        color: white;
+  
+    
+        }
+.gallery-body .wrapper{
+            width: 100%;
+        
+           
+            height:100%;
+        }
+        .gallery-footer{
+            bottom: 0px;
+            height:150px;
+            position: absolute;
+            
+        }
+
+.gallery-footer img{
+    
+    opacity: 0.3;
+}
+     .gallery-body   .box{
+            background-color: black;
+            padding: 0px;
+            height: 150px;
+           
+           overflow: hidden;
+            
+            
+        }
+
+
+      .gallery-body  .carousel {
+             
+            position: relative;
+            margin-top: 420px;
+            background-color: black;
+            
+        }
+       .gallery-body .carousel .item {
+            
+            height: 120px;
+            
+        }
+     .gallery-body   .carousel .item img {
+            opacity: 0.2;
+            
+            left: 0;
+            min-height: 150px;
+            position: absolute;
+            top: 0;
+        }
+      .gallery-body  #carouselButtons {
+            bottom: 0px;
+            position: absolute;
+            right: 0px;
+           
+        }
+.gallery-body .left{
+     border-right: 1px solid white;
+}
+.gallery-body .right{
+     border-left: 1px solid white;
+}
