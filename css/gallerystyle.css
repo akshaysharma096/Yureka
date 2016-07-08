@@ -1,3 +1,23 @@
+    .main-logo {
+	width: 80px;
+	margin-top: 25px;
+}
+
+a {
+	color: white;
+	text-decoration: none !important;
+}
+
+a:hover {
+	color: #2c7fd1;
+}
+        .active{
+            color: #2c7fd1;
+        }
+.navigation {
+	text-align: center;
+	font-size: 1.4em;
+}
 .gallery-body{
             background-image: url("../img/galleryback.jpg");
             background-size: cover;
@@ -37,7 +57,7 @@
      .gallery-body   .carousel {
              
             position: relative;
-            margin-top: 420px;
+            margin-top: 200px;
             background-color: black;
         }
     .gallery-body    .carousel .item {
