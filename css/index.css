@@ -18,10 +18,12 @@ a {
 }
 
 a:hover {
-	color: #2c7fd1;
+	color: white;
+	text-decoration: none;
 }
 
 .navigation {
+	margin-top: 20px;
 	text-align: center;
 	font-size: 1.4em;
 }
@@ -48,6 +50,25 @@ button {
 	border-color: white;
 	border-width: 1px;
 	color: white;
+	border-radius: 3px;
+}
+
+button:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.menu-box {
+	padding: 6px 6px 6px 6px;
+	border: 2px solid transparent;
+}
+
+.menu-box:hover {
+	background-color: rgba(0,0,0,0.8);
+	border: 2px solid white;
+	border-radius: 3px;
+    /*box-shadow: 2px 2px 5px 5px rgba(255, 255, 255, 0.54);
+    -moz-box-shadow: 2px 2px 5px 5px rgba(255, 255, 255, 0.54);
+    -webkit-box-shadow: 2px 2px 5px 5px rgba(255, 255, 255, 0.54);*/
 }
 
 .logo2 {
