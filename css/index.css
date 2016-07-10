@@ -25,7 +25,8 @@ a:hover {
 .navigation {
 	margin-top: 20px;
 	text-align: center;
-	font-size: 1.4em;
+	font-size: 1em;
+	font-weight: 300;
 }
 
 .central-text {
@@ -40,7 +41,8 @@ hr {
 }
 
 .text {
-	font-size: 18px;
+	font-size: 1.2em;
+	font-weight: 300;
 }
 
 button {
@@ -75,6 +77,10 @@ button:hover {
 	width: 70px;
 }
 
+.bottom-left-text {
+	padding-left: 0px;
+}
+
 @media only screen and (max-width: 750px) {
 	.navigation {
 		margin-top: 20px;
@@ -86,5 +92,9 @@ button:hover {
 
 	hr {
 		left: 0px;
+	}
+
+	.bottom-left-text {
+		padding-left: 10px;
 	}
 }
