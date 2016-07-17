@@ -1,71 +1,52 @@
 body {
-	background-image: url("../img/back1.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	font-family: 'Roboto Condensed', sans-serif;
-	font-weight: 400;
-	color: white;
+  background-image: url("../img/back1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+  color: white;
 }
 
 .main-logo {
-	width: 80px;
-	margin-top: 25px;
+  width: 80px;
+  margin-top: 25px;
 }
 
-a {
-	color: white;
-	text-decoration: none !important;
+.container a {
+  color: white;
+  text-decoration: none !important;
 }
 
-a:hover {
-	color: #2C7FCF;
+.container a:hover {
+  color: #2C7FCF;
 }
 
 .navigation {
-	text-align: center;
-	font-size: 1.4em;
+  text-align: center;
+  font-size: 1.4em;
+  margin-top: 20px;
 }
 
-.central-text {
-	margin-top: 90px;
-	margin-left: 100px;
+
+.menu-box {
+  padding: 6px 6px 6px 6px;
+  border: 2px solid transparent;
 }
 
-hr {
-	width: 75%;
-	left: -140px;
-	position: relative;
-}
-
-.text {
-	font-size: 18px;
-}
-
-button {
-	margin-top: 90px;
-	padding: 10px 30px 10px 30px;
-	background: transparent;
-	border-color: white;
-	border-width: 1px;
-	color: white;
-}
-
-.logo2 {
-	width: 70px;
+.menu-box:hover {
+  background-color: rgba(0,0,0,0.8);
+  border: 2px solid white;
+  border-radius: 3px;
+    /*box-shadow: 2px 2px 5px 5px rgba(255, 255, 255, 0.54);
+    -moz-box-shadow: 2px 2px 5px 5px rgba(255, 255, 255, 0.54);
+    -webkit-box-shadow: 2px 2px 5px 5px rgba(255, 255, 255, 0.54);*/
 }
 
 @media only screen and (max-width: 750px) {
-	.navigation {
-		margin-top: 20px;
-	}
+  .navigation {
+    margin-top: 20px;
+  }
 
-	.central-text {
-		margin-left: 0px;
-	}
-
-	hr {
-		left: 0px;
-	}
 }
 
 ----------------------------------------------------------------------------------------------------------------------------------------
