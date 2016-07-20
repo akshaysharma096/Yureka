@@ -5,7 +5,7 @@
 }
 
 a {
-	color: black;
+	color: white;
 	text-decoration: none !important;
 }
 
@@ -164,52 +164,60 @@ a:hover {
     animation-delay: 30s; 
 }
 
+
 /* Animation for the slideshow images */
 @-webkit-keyframes imageAnimation { 
     0% { opacity: 0;
     -webkit-animation-timing-function: ease-in; }
-    8% { opacity: 1;
+    8% { opacity: 0.3;
          -webkit-animation-timing-function: ease-out; }
-    17% { opacity: 1 }
+    17% { opacity: 0.3 }
     25% { opacity: 0 }
     100% { opacity: 0 }
 }
 @-moz-keyframes imageAnimation { 
     0% { opacity: 0;
     -moz-animation-timing-function: ease-in; }
-    8% { opacity: 1;
+    8% { opacity: 0.3;
          -moz-animation-timing-function: ease-out; }
-    17% { opacity: 1 }
+    17% { opacity: 0.3 }
     25% { opacity: 0 }
     100% { opacity: 0 }
 }
 @-o-keyframes imageAnimation { 
     0% { opacity: 0;
     -o-animation-timing-function: ease-in; }
-    8% { opacity: 1;
+    8% { opacity: 0.3;
          -o-animation-timing-function: ease-out; }
-    17% { opacity: 1 }
+    17% { opacity: 0.3 }
     25% { opacity: 0 }
     100% { opacity: 0 }
 }
 @-ms-keyframes imageAnimation { 
     0% { opacity: 0;
     -ms-animation-timing-function: ease-in; }
-    8% { opacity: 1;
+    8% { opacity: 0.3;
          -ms-animation-timing-function: ease-out; }
-    17% { opacity: 1 }
+    17% { opacity: 0.3 }
     25% { opacity: 0 }
     100% { opacity: 0 }
 }
 @keyframes imageAnimation { 
     0% { opacity: 0;
     animation-timing-function: ease-in; }
-    8% { opacity: 1;
+    8% { opacity: 0.3;
          animation-timing-function: ease-out; }
-    17% { opacity: 1 }
+    17% { opacity: 0.3 }
     25% { opacity: 0 }
     100% { opacity: 0 }
 }
+        #text:hover{
+            font-size: 20px;
+        }
+        #box1:hover{
+            border-color: aqua;
+        
+        }
 
 
 /* Show at least something when animations not supported */

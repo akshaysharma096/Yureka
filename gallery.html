@@ -158,36 +158,36 @@
                 <div class="col-sm-2 col-xs-6 box " id="box1">
                    <img class="img-responsive " src="img/1.JPG" height="100px">
                     <div class="carousel-caption text">
-                    <h4>Li-Fi Event</h4>
-                    <p style="">Aug 2015</p>
+                    <h4 id="text">Li-Fi Event</h4>
+                    <p id="text">Aug 2015</p>
                     </div>
                 </div>
                 <div class="col-sm-2 col-xs-6 box " id="box2">
                   <img class="img-responsive" src="img/3.JPG" height="100px">
                     <div class="carousel-caption">
-                    <h4>Tech-Talk</h4>
-                    <p style="">Jan 2016</p>
+                    <h4 id="text">Tech-Talk</h4>
+                    <p id="text">Jan 2016</p>
                     </div>
                 </div>
                 <div class="col-sm-3 col-xs-6 box " id="box3">
                    <img class="img-responsive " src="img/6.JPG" height="100px">
                     <div class="carousel-caption">
-                    <h4 style="margin-top:0px; padding:0px;">Internet of Things Webinar</h4>
-                    <p style="">Mar 2016</p>
+                    <h4 style="margin-top:0px; padding:0px;" id="text">Internet of Things Webinar</h4>
+                    <p id="text">Mar 2016</p>
                     </div>
                 </div>
                 <div class="col-sm-2 col-xs-6 box" id="box4">
                   <img class="img-responsive" src="img/7.JPG" height="100px">
                     <div class="carousel-caption">
-                    <h4>Code-Blaze</h4>
-                    <p style="">May 2016</p>
+                    <h4 id="text">Code-Blaze</h4>
+                    <p id="text">May 2016</p>
                     </div>
                 </div>
                 <div class="col-sm-3 col-xs-12 box " id="box5">
                   <img class="img-responsive " src="img/9.JPG"  height="100px">
                     <div class="carousel-caption">
-                    <h4>Photography Seminar</h4>
-                    <p style="">Sept 2016</p>
+                    <h4 id="text">Photography Seminar</h4>
+                    <p id="text">Sept 2016</p>
                     </div>
                 </div>
             </div>
@@ -203,15 +203,14 @@
     // Enable Carousel 
     $("#box1").click(function(){
         $("#carousel2").hide();
-        $("#carousel1").show();
         
+        $("#carousel1").toggle();
     });
-              $("#box2").click(function(){
+    /*          $("#box2").click(function(){
         $("#carousel1").hide();
-        $("#carousel2").show();
-    });
-          });
-          </script>
+        $("#carousel2").toggle();
+    }); */
+          });</script>
    
     </body>
 </html> 
