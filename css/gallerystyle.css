@@ -1,4 +1,21 @@
-           .main-logo {
+        @media all and (max-width: 959px) {
+
+    #nav-button{display:block;}
+    #navigation {display:none;}
+    
+
+}
+              @media all and (min-width: 959px) {
+
+    #nav-button{display:none;}
+    #navigation {display:block;}
+    
+
+}
+.logo button{
+    margin-top: 50px;
+}
+.main-logo {
 	width: 80px;
 	margin-top: 25px;
                position: relative;
@@ -10,7 +27,8 @@ a {
 }
 
 a:hover {
-	color: #2c7fd1;
+	color: white;
+    text-decoration: none;
 }
         .active{
             color: #2c7fd1;
@@ -84,6 +102,19 @@ a:hover {
 	padding:0;
 }
 
+.menu-box {
+   
+    border: 2px solid transparent;
+}
+
+.menu-box:hover {
+    background-color: rgba(0,0,0,0.8);
+    border: 2px solid white;
+    border-radius: 3px;
+    /*box-shadow: 2px 2px 5px 5px rgba(255, 255, 255, 0.54);
+    -moz-box-shadow: 2px 2px 5px 5px rgba(255, 255, 255, 0.54);
+    -webkit-box-shadow: 2px 2px 5px 5px rgba(255, 255, 255, 0.54);*/
+}
 
 
 

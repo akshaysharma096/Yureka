@@ -1,21 +1,19 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
+    <head>
+        <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial scale=1">
-    <title>Gallery</title>
-<!--    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
-    <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-		<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css' />
- <link rel="stylesheet" type="text/css" href="css/gallerystyle.css">
+        <meta name="viewport" content="width=device-width, initial scale=1">
+        <title>ACM-MAIT Gallery</title>
+        <!--    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+        <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css' />
+        <link rel="stylesheet" type="text/css" href="css/gallerystyle.css">
+       
+    </head>
     
-        </head>
-   
-     <body class="gallery-body">
-          <ul class="cb-slideshow list-unstyled">
+    <body class="gallery-body">
+        <ul class="cb-slideshow list-unstyled">
             <li><span>Image 01</span></li>
             <li><span>Image 02</span></li>
             <li><span>Image 03</span></li>
@@ -23,12 +21,16 @@
             <li><span>Image 05</span></li>
             <li><span>Image 06</span></li>
         </ul>
-        <div class="wrapper">
+       <div class="wrapper">
             	<div class="row logo" align="center">
-				<img src="img/logo.png" class="main-logo" />
-			</div>
+        <div class="col-xs-2 col-xs-offset-5">
+            <img src="img/logo.png" class="main-logo" /></div>
+        <div class="col-xs-1 col-xs-offset-3">
+            <button type="button" class="btn btn-primary " data-toggle="collapse" data-target="#demo" id="nav-button"><span class="caret"></span></button>
+                    </div>
+			</div> 
 			
-			    <div class="row navigation">
+			    <div class="row navigation" id="navigation">
                 <div class="col-sm-1"></div>
                 <div class="col-sm-2">
                     <a href="index.html">
@@ -45,7 +47,7 @@
                     </a>
                 </div>
                 <div class="col-sm-2">
-                    <a href="construction.html" class="active">
+                    <a href="gallery.html" class="active">
                         <div class="menu-box">
                             GALLERY
                         </div>
@@ -66,6 +68,46 @@
                     </a>
                 </div>
                 <div class="col-sm-1"></div>
+            </div>
+           
+            <div class="row navigation collapse " id="demo">
+                    <div class="col-sm-1"></div> 
+                <div class="col-sm-2">
+                    <a href="index.html">
+                        <div class="menu-box">
+                            HOME
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-2">
+                    <a href="aboutus.html">
+                        <div class="menu-box">
+                            ABOUT US
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-2">
+                    <a href="gallery.html" class="active">
+                        <div class="menu-box">
+                            GALLERY
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-2">
+                    <a href="construction.html">
+                        <div class="menu-box">
+                            TEAM
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="#">
+                        <div class="menu-box">
+                            CONTACT US
+                        </div>
+                    </a>
+                </div>
+               
             </div>
             
          <div class="row ">
@@ -194,16 +236,18 @@
                 </div>
          
         </div>
-         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" async></script>
-    <script>
-          $(document).ready(function(){
-    $("#carousel1").hide();
-    $("#carousel2").hide();
-    // Enable Carousel 
-    $("#box1").click(function(){
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" async></script>
+       
+     <script>
+        $(document).ready(function(){
+        $("#carousel1").hide();
+        $("#carousel2").hide();
+        // Enable Carousel
+        $("#box1").click(function(){
         $("#carousel2").hide();
         
+
         $("#carousel1").toggle();
     });
     /*          $("#box2").click(function(){
@@ -211,6 +255,9 @@
         $("#carousel2").toggle();
     }); */
           });</script>
-   
+
+       
+        
+
     </body>
-</html> 
+</html>
