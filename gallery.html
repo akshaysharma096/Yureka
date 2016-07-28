@@ -85,19 +85,19 @@
                    
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
-                    <div class="item active">
+                    <div class="item active" onload="showImages('img/4.png', image1)">
                         <a href="#"><img class="img-responsive"
-                                         src="img/4.png" alt="Li-Fi1"></a>
+                                         src="" id="image1" alt="Li-Fi1"></a>
                        
                     </div>
-                    <div class="item" onload="showImages('img/7.png', image1)">
+                    <div class="item" onload="showImages('img/7.png', image2)">
                          <img class="img-responsive"
-                         src="" id="image1" alt="Li-Fi2">
+                         src="" id="image2" alt="Li-Fi2">
                         
                     </div>
-                    <div class="item" onload="showImages('img/6.png', image2)">
+                    <div class="item" onload="showImages('img/6.png', image3)">
                          <img class="img-responsive"
-                         src="" id="image2" alt="Li-Fi3">
+                         src="" id="image3" alt="Li-Fi3">
                         
                     </div>
                     
@@ -278,6 +278,10 @@ function image1(xhr) {
 }
     function image2(xhr) {
   var image = document.getElementById("image2");
+                    image.src = "data:image/gif;base64," + encode64(xhr.responseText);
+}
+        function image3(xhr) {
+  var image = document.getElementById("image3");
                     image.src = "data:image/gif;base64," + encode64(xhr.responseText);
 }
           
