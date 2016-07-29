@@ -199,24 +199,23 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" async></script>
        
-     <script>
+    <script>
         $(document).ready(function(){
-        $("#carousel1").hide();
-        $("#carousel2").hide();
-        // Enable Carousel
-        $("#box1").click(function(){
-        $("#carousel2").hide();
-        
-
-        $("#carousel1").toggle();
-    });
+	        $("#carousel1").hide();
+	        $("#carousel2").hide();
+	        // Enable Carousel
+	        $("#box1").click(function(){
+		        $("#carousel2").hide();
+		        $("#carousel1").toggle();
+		    });
     /*          $("#box2").click(function(){
         $("#carousel1").hide();
         $("#carousel2").toggle();
     }); */
-          });</script>
+        });
+    </script>
 
-   <script language="javascript" type="text/javascript">
+    <script language="javascript" type="text/javascript">
     function showImages(url,func){
         if (window.XMLHttpRequest || window.ActiveXObject) {
             if (window.ActiveXObject) {
