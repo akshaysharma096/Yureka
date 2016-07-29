@@ -18,15 +18,16 @@ body {
 }
 
 .navb a:hover {
-  color: #2C7FCF;
+  color: white;
+  text-decoration: none;
 }
 
 .navigation {
-  text-align: center;
-  font-size: 1.4em;
   margin-top: 20px;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: 300;
 }
-
 
 .menu-box {
   padding: 6px 6px 6px 6px;
@@ -117,9 +118,10 @@ Default 700/5 : 140px;
   text-decoration: none;
   padding-top:20px;
   padding-left: 15px;
-  font-size:20px;
-  font-size: 1.6em;
+  font-size:25px;
+  font-size: 1.8em;
   font-style: bold;
+  font-family: 'Roboto Condensed-Bold', sans-serif;
 }
 
 .image_title p{
@@ -141,6 +143,10 @@ Default 700/5 : 140px;
 
 /* START OF MOBILE VIEW STYLE */
 @media only screen and (max-width: 750px) {
+
+  body{
+    background-image: url("../img/mobilebg.jpg");
+  }
 
 .desktopview {
     display: none;
