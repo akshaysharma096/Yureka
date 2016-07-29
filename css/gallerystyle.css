@@ -1,4 +1,7 @@
- .box{
+#carousel1{
+    display: none;
+} 
+.box{
                 width:20%;
             }
 .box:hover{
