@@ -1,3 +1,6 @@
+ .box{
+                width:20%;
+            }
 .box:hover{
     cursor: pointer;
 }
