@@ -1,9 +1,11 @@
 #carousel1{
     display: none;
 } 
+@media all and (min-width: 760px){
 .box{
                 width:20%;
             }
+}
 .box:hover{
     cursor: pointer;
 }
