@@ -20,11 +20,12 @@
 	margin-top: 25px;
                position: relative;
    }
-    .navigation {
-	text-align: center;
-	font-size: 1.4em;
-        margin-top: 20px;
-   }
+   .navigation {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: 300;
+}
     .gallery-footer{
             bottom: 0px;
             height:150px;
