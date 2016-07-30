@@ -1,5 +1,5 @@
 body {
-	background-image: url("../img/back1.jpg");
+	background-image: url("../img/bg_contact.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	font-family: 'Roboto Condensed', sans-serif;
@@ -25,13 +25,17 @@ a:hover {
 .navigation {
 	margin-top: 20px;
 	text-align: center;
-	font-size: 1em;
+	font-size: 1.3em;
 	font-weight: 300;
 }
 
 .central-text {
-	margin-top: 60px;
+	margin-top: 50px;
 	text-align: center;
+}
+
+.central-text h1 {
+	font-weight: 700;
 }
 
 .sub-head {
@@ -56,6 +60,19 @@ a:hover {
 
 .contact-icon {
 	margin-top: 50px;
+}
+
+.text:hover {
+	text-decoration: underline;
+}
+
+.icons:hover {
+	-moz-box-shadow: -5px 5px 10px #000000;
+	-webkit-box-shadow: -5px 5px 10px #000000;
+	box-shadow: -5px 5px 10px #000000;
+	-moz-border-radius:190px;
+	-webkit-border-radius:190px;
+	border-radius:190px;
 }
 
 @media only screen and (max-width: 750px) {
