@@ -73,14 +73,6 @@ button:hover {
     -webkit-box-shadow: 2px 2px 5px 5px rgba(255, 255, 255, 0.54);*/
 }
 
-.logo2 {
-	width: 70px;
-}
-
-.bottom-left-text {
-	padding-left: 0px;
-}
-
 @media only screen and (max-width: 750px) {
 	.navigation {
 		margin-top: 20px;
@@ -92,9 +84,5 @@ button:hover {
 
 	hr {
 		left: 0px;
-	}
-
-	.bottom-left-text {
-		padding-left: 10px;
 	}
 }
