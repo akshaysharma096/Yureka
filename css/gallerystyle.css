@@ -39,7 +39,7 @@ html,body,ul {
 .main-logo {
 	       width: 80px;
 	       margin-top: 25px;
-           position: relative;
+           /*position: relative;*/
       }
 .navigation {
            margin-top: 20px;
