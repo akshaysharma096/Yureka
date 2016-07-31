@@ -15,25 +15,21 @@ body {
 	margin-top: 25px;
 }
 
-.container a {
-	color: white;
-	text-decoration: none !important;
+.navb a {
+  color: white;
+  text-decoration: none !important;
 }
 
-.container a:hover {
-	color: white;
+.navb a:hover {
+  color: white;
   text-decoration: none;
 }
 
 .navigation {
-	text-align: center;
-	font-size: 1.3em;
   margin-top: 20px;
+  text-align: center;
+  font-size: 1.3em;
   font-weight: 300;
-}
-
-.active{
-  color: #2c7fcf;
 }
 
 .menu-box {
@@ -48,8 +44,6 @@ body {
     /*box-shadow: 2px 2px 5px 5px rgba(255, 255, 255, 0.54);
     -moz-box-shadow: 2px 2px 5px 5px rgba(255, 255, 255, 0.54);
     -webkit-box-shadow: 2px 2px 5px 5px rgba(255, 255, 255, 0.54);*/
-}
-
 @media only screen and (max-width: 750px) {
 	.navigation {
 		margin-top: 20px;
