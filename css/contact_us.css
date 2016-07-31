@@ -67,12 +67,19 @@ a:hover {
 }
 
 .icons:hover {
-	-moz-box-shadow: -5px 5px 10px #000000;
-	-webkit-box-shadow: -5px 5px 10px #000000;
-	box-shadow: -5px 5px 10px #000000;
+	-moz-box-shadow: 0px 0px 10px #FFFFFF;
+	-webkit-box-shadow: 0px 0px 10px #FFFFFF;
+	box-shadow: 0px 0px 10px #FFFFFF;
 	-moz-border-radius:190px;
 	-webkit-border-radius:190px;
 	border-radius:190px;
+}
+
+.popover-title {
+    color: black;
+}
+.popover-content {
+    color: black;
 }
 
 @media only screen and (max-width: 750px) {

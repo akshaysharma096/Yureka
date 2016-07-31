@@ -73,23 +73,23 @@
 			</div>
 			<div class="row" align="center">
 				<div class="col-md-3 col-sm-6 col-xs-6 contact-icon" align="center">
-					<a>
+					<a href="mailto:suggestions@mait.acm.org" target="_top">
 						<img src="img/message.png" style="width: 125px;" class="icons">
 					</a>
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-6 contact-icon" align="center">
-					<a>
-						<img src="img/phone.png" style="width: 125px;" class="icons">
-					</a>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-6 contact-icon" align="center">
-					<a>
+					<a href="https://www.facebook.com/acm.mait">
 						<img src="img/fb.png" style="width: 125px;" class="icons">
 					</a>
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-6 contact-icon" align="center">
-					<a>
-						<img src="img/twitter.png" style="width: 125px;" class="icons">
+					<a data-toggle="popover" title="Call us on-" data-content="+91-9811032945" data-placement="bottom">
+						<img src="img/phone.png" style="width: 125px;" class="icons">
+					</a>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-6 contact-icon" align="center">
+					<a data-toggle="popover" title="Whatsapp us on-" data-content="+91-9811032945" data-placement="bottom">
+						<img src="img/whatsapp.png" style="width: 125px;" class="icons">
 					</a>
 				</div>
 			</div>
@@ -98,6 +98,11 @@
 			</div>
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" async></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script>
+		$(document).ready(function(){
+		    $('[data-toggle="popover"]').popover(); 
+		});
+		</script>	
 	</body>
 </html>
