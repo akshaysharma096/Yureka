@@ -11,8 +11,8 @@ body {
 }
 
 .main-logo {
-	width: 80px;
-	margin-top: 25px;
+  width: 80px;
+  margin-top: 25px;
 }
 
 .navb a {
@@ -44,6 +44,8 @@ body {
     /*box-shadow: 2px 2px 5px 5px rgba(255, 255, 255, 0.54);
     -moz-box-shadow: 2px 2px 5px 5px rgba(255, 255, 255, 0.54);
     -webkit-box-shadow: 2px 2px 5px 5px rgba(255, 255, 255, 0.54);*/
+}
+
 @media only screen and (max-width: 750px) {
 	.navigation {
 		margin-top: 20px;
