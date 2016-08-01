@@ -9,11 +9,31 @@ body {
 	width: 100%;
   height: 100%;
 }
-
+@media all and (min-height: 600px){
 .main-logo {
-  width: 80px;
-  margin-top: 25px;
+	width: 80px;
+	margin-top: 25px;
 }
+    .navigation {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: 300;
+  }
+}
+@media all and (max-height: 600px){
+   
+.main-logo {
+	        width: 40px;
+	        margin-top: 5px;
+            position: relative;
+  }
+    .navigation {
+	text-align: center;
+	font-size: 1em;
+  }
+}
+
 
 .navb a {
   color: white;
@@ -25,12 +45,7 @@ body {
   text-decoration: none;
 }
 
-.navigation {
-  margin-top: 20px;
-  text-align: center;
-  font-size: 1.3em;
-  font-weight: 300;
-}
+
 
 .menu-box {
   padding: 6px 6px 6px 6px;

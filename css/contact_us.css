@@ -6,11 +6,31 @@ body {
 	font-weight: 400;
 	color: white;
 }
-
+@media all and (min-height: 600px){
 .main-logo {
 	width: 80px;
 	margin-top: 25px;
 }
+    .navigation {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: 300;
+  }
+}
+@media all and (max-height: 600px){
+   
+.main-logo {
+	        width: 40px;
+	        margin-top: 5px;
+            position: relative;
+  }
+    .navigation {
+	text-align: center;
+	font-size: 1em;
+  }
+}
+
 
 a {
 	color: white;
@@ -22,12 +42,7 @@ a:hover {
 	text-decoration: none;
 }
 
-.navigation {
-	margin-top: 20px;
-	text-align: center;
-	font-size: 1.3em;
-	font-weight: 300;
-}
+
 
 .central-text {
 	margin-top: 50px;
