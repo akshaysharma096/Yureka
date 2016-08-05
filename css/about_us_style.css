@@ -6,7 +6,7 @@ body {
   font-weight: 400;
   color: white;
 }
-@media all and (min-height: 600px){
+@media all and (min-height: 750px){
 .main-logo {
 	width: 80px;
 	margin-top: 25px;
@@ -18,7 +18,7 @@ body {
 	font-weight: 300;
   }
 }
-@media all and (max-height: 600px){
+@media all and (max-height: 751px){
    
 .main-logo {
 	        width: 40px;
