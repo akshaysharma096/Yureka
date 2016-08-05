@@ -34,7 +34,7 @@ html,body,ul {
     -webkit-box-shadow: 2px 2px 5px 5px rgba(255, 255, 255, 0.54);*/
 }
 
-@media all and (min-height: 600px){
+@media all and (min-height: 751px){
   
 .main-logo {
 	       width: 80px;
@@ -70,7 +70,7 @@ html,body,ul {
        
         }
 }
-@media all and (max-height: 600px){
+@media all and (max-height: 750px){
    
 .main-logo {
 	        width: 40px;
